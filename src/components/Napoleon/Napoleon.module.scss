@@ -1,0 +1,34 @@
+.napoleon {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../assets/images/nap.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    div:first-child {
+        width: 39% !important;
+        height: 53% !important;
+        position: absolute;
+        left: 31%;
+        top: 2%;
+        z-index: 100;
+
+        div:first-child {
+            height: 100% !important;
+            width: 100% !important;
+            position: unset;
+        }
+    }
+}
+
+.togglePlayer {
+    border: none;
+    background: none;
+    position: absolute;
+    cursor: pointer;
+    right: 30%;
+    top: 24%;
+    width: 10%;
+    height: 17%;
+}

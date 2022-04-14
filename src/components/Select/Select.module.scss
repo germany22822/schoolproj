@@ -1,0 +1,43 @@
+.select {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../assets/images/Наполеон.str.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.settings {
+    display: block;
+    position: absolute;
+    height: 9%;
+    width: 5%;
+    right: 0%;
+}
+
+.napoleon {
+    display: block;
+    position: absolute;
+    width: 11%;
+    height: 17%;
+    bottom: 4%;
+    left: 45%;
+}
+
+.wip1 {
+    position: absolute;
+    display: block;
+    width: 11%;
+    height: 17%;
+    bottom: 4%;
+    left: 9%; 
+}
+
+.wip2 {
+    position: absolute;
+    display: block;
+    width: 10%;
+    height: 17%;
+    bottom: 4%;
+    right: 9%;       
+}

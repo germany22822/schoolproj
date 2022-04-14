@@ -1,0 +1,38 @@
+.landing {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../assets/images/Главная.str.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.darkLanding {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../assets/images/color.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.start {
+    display: block;
+    height: 38%;
+    width: 80%;
+    position: absolute;
+    top: 26%;
+    left: 10%;
+    cursor: pointer;
+}
+
+.color {
+    display: block;
+    position: absolute;
+    width: 12%;
+    height: 13%;
+    cursor: pointer;
+    right: 0%;
+    background: none;
+    border: none;
+}
