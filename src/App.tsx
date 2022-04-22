@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Landing from './components/Landing';
 import Napoleon from './components/Napoleon';
@@ -8,7 +8,7 @@ import WIP from './components/WIP';
 
 function App() {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 <Route path="/" element={<Landing />} />
                 <Route path="select" element={<Select />} />
@@ -16,7 +16,7 @@ function App() {
                 <Route path="napoleon" element={<Napoleon />} />
                 <Route path="wip" element={<WIP />} />
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
